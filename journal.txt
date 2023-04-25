@@ -1,0 +1,26 @@
+---
+last updated: 2023-04-25 (22:30)
+what it?: my public journal / TODO list
+---
+
+25-04-2023 (22:28)
+AM - TEST
+
+TODO - 
+- [ ] Hello
+- [ ] World
+- [x] Completed Task
+
+PM - NIGHT JRNL TEST
+
+-------------------
+
+24-04-2023 (14:22)
+AM - FICTION TEST
+
+TODO - 
+- [ ] THIS
+- [ ] DOESN'T
+- [ ] EXIST
+
+PM - FINAL TEST
