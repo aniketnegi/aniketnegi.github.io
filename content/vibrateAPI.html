@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vibrate Button Demo</title>
+</head>
+<body>
+	<button id="myButton">Click Me</button>
+	<script>
+		const button = document.getElementById('myButton');
+
+		button.addEventListener('click', () => {
+			if (navigator.vibrate) {
+				navigator.vibrate(1000);
+			} else {
+				console.log('Vibration not supported.');
+			}
+		});
+	</script>
+</body>
+</html>
+
