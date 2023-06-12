@@ -11,6 +11,42 @@
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
+    <style>
+        footer {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .thumbnail-image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay-text {
+            position: absolute;
+            bottom: -21px;
+            right: -3px;
+            color: rgb(32, 32, 32);
+            padding: 5px;
+            font-size: 10px;
+        }
+
+        .overlay-text a {
+            color: rgb(8, 0, 121);
+            text-decoration: underline;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -36,8 +72,15 @@
     </blockquote>
 
 
-    <img src="imgs/Dr-Manhattan-on-Mars-optimized.jpg" width="750px" height="375px"
-        alt="a stylised picture of a man sitting on rocks on mars" />
+    <div class="image-container">
+        <img src="imgs/Dr-Manhattan-on-Mars-optimized.jpg" class="thumbnail-image"
+            alt="a stylised picture of a man sitting on rocks on alien planet" />
+        <div class="overlay-text">
+            <p>This is an optimized version of the image. <a href="imgs/Dr-Manhattan-on-Mars.png">Here's</a> the
+                original.
+            </p>
+        </div>
+    </div>
 
     <h3>
         short stories
@@ -67,6 +110,12 @@
 
     <br>
     <br>
+
+    <hr />
+
+    <footer>
+        <a href="https://github.com/aniketnegi">Github</a>
+    </footer>
 </body>
 
 </html>
