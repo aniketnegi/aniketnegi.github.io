@@ -1,116 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Is &nbsp really the best thing to put in a title? -->
+    <title>aniketnegi's website</title>
+    <link rel="icon" type="image/x-icon" href="content/imgs/pfp.jpg" />
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Is &nbsp really the best thing to put in a title? -->
-  <title>aniketnegi's website</title>
-  <link rel="icon" type="image/x-icon" href="content/imgs/pfp.jpg" />
-  <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" />
+    <style>
+      span.header-minor {
+        font-size: 14px;
+        font-style: italic;
+        font-weight: normal;
+      }
 
-  <style>
-    span.header-minor {
-      font-size: 14px;
-      font-style: italic;
-      font-weight: normal;
-    }
+      footer {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
 
-    footer {
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      font-weight: 600;
-      display: flex;
-      justify-content: center;
-    }
+  <body>
+    <header>
+      <h1>
+        <span class="header-major">ankt</span>
+        <span class="header-minor"
+          >(tech, cinema, literature, and the human mind)</span
+        >
+      </h1>
 
-    .image-container {
-      position: relative;
-      display: inline-block;
-    }
+      <nav>
+        <a href="index.html">Home</a> /
+        <a href="content/txt-files/journal.txt">Journal</a> /
+        <a href="#">Blog</a> / <a href="#">Projects</a> /
+        <a href="#">Sitemap</a> / <a href="content/links.html">Links</a> /
+        <a href="content/txt-files/pgp.txt">PGP Key</a>
+      </nav>
+    </header>
 
-    .thumbnail-image {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
+    <blockquote cite="">
+      This website is a WIP. If you have any comments / suggestions, feel free
+      to <a href="mailto:aniketnegi@duck.com">email me</a>!
+    </blockquote>
 
-    .overlay-text {
-      position: absolute;
-      bottom: -21px;
-      right: -3px;
-      color: var(--nc-tx-1);
-      padding: 5px;
-      font-size: 10px;
-    }
+    <!-- All attempts to link the original uncompressed image were massively hurting load times, sorry boys. Here's the link -->
+    <!-- https://aniketnegi.github.io/content/imgs/Calm-Cat.jpg -->
+    <img
+      src="content/imgs/Calm-Cat-optimized.jpg"
+      class="thumbnail-image"
+      alt="a stylised picture of a cat walking on roofs"
+    />
 
-    .overlay-text a {
-      color: var(--nc-lk-1);
-      text-decoration: underline;
-    }
-  </style>
-</head>
+    <h2>about</h2>
+    <p>
+      Hello! welcome to my website. I'm an 18-yr old high school graduate from
+      India who loves technology, art, and machines. Check out my
+      <a href="https://www.artstation.com/aniketnegi">ArtStation</a> to see the
+      little bit of art I have made. I'm fairly curious and I love to have fun
+      ;)
+    </p>
+    <br />
+    <h2>my philosophy</h2>
+    <p>
+      I love tech minimalism and am a FOSS enjoyer. I'm not a huge fan of
+      post-modern industrialism as I think that it has, in the long run, led to
+      us becoming dopamine-addicts. We are basically the
+      <a
+        href="https://knowyourmeme.com/photos/1919939-monkey-sees-action-neuron-activation"
+        >neuron activated meme</a
+      >, doomscrolling social media until the day gets over and the inevitable
+      sense of regret washes over us, and we cry ourselves to sleep. Basically
+      <a href="https://en.wikipedia.org/wiki/Ted_Kaczynski">Uncle Ted</a
+      ><sup><a href="content/txt-files/unabom.txt">[1]</a></sup
+      >, minus the urge to mail pipe bombs
+      <small>(my lawyer recommended I add the last statement)</small>.
+    </p>
 
-<body>
-  <header>
-    <h1>
-      <span class="header-major">ankt</span>
-      <span class="header-minor">(tech, cinema, literature, and the human mind)</span>
-    </h1>
+    <hr />
 
-    <nav>
-      <a href="index.html">Home</a> /
-      <a href="content/txt-files/journal.txt">Journal</a> /
-      <a href="#">Blog</a> / <a href="#">Projects</a> /
-      <a href="#">Sitemap</a> / <a href="content/links.html">Links</a> /
-      <a href="content/txt-files/pgp.txt">PGP Key</a>
-    </nav>
-  </header>
-
-  <blockquote cite="">
-    This website is a WIP. If you have any comments / suggestions, feel free
-    to <a href="mailto:aniketnegi@duck.com">email me</a>!
-  </blockquote>
-
-  <div class="image-container">
-    <img src="content/imgs/Calm-Cat-optimized.jpg" class="thumbnail-image"
-      alt="a stylised picture of a cat walking on roofs" />
-    <div class="overlay-text">
-      <p>This is an optimized version of the image. <a href="content/imgs/Calm-Cat.jpg">Here's</a> the original.</p>
-    </div>
-  </div>
-
-
-  <h2>about</h2>
-  <p>
-    Hello! welcome to my website. I'm an 18-yr old high school graduate from
-    India who loves technology, art, and machines. Check out my
-    <a href="https://www.artstation.com/aniketnegi">ArtStation</a> to see the
-    little bit of art I have made. I'm fairly curious and I love to have fun
-    ;)
-  </p>
-  <br />
-  <h2>my philosophy</h2>
-  <p>
-    I love tech minimalism and am a FOSS enjoyer. I'm not a huge fan of
-    post-modern industrialism as I think that it has, in the long run, led to
-    us becoming dopamine-addicts. We are basically the
-    <a href="https://knowyourmeme.com/photos/1919939-monkey-sees-action-neuron-activation">neuron activated meme</a>,
-    doomscrolling social media until the day gets over and the inevitable
-    sense of regret washes over us, and we cry ourselves to sleep. Basically
-    <a href="https://en.wikipedia.org/wiki/Ted_Kaczynski">Uncle Ted</a><sup><a
-        href="content/txt-files/unabom.txt">[1]</a></sup>, minus the urge to mail pipe bombs
-    <small>(my lawyer recommended I add the last statement)</small>.
-  </p>
-
-  <hr />
-
-  <footer>
-    <a href="https://github.com/aniketnegi">Github</a>
-  </footer>
-</body>
-
+    <footer>
+      <a href="https://github.com/aniketnegi">Github</a>
+    </footer>
+  </body>
 </html>

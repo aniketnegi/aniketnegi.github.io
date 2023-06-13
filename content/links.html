@@ -20,31 +20,6 @@
             display: flex;
             justify-content: center;
         }
-
-        .image-container {
-            position: relative;
-            display: inline-block;
-        }
-
-        .thumbnail-image {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
-        .overlay-text {
-            position: absolute;
-            bottom: -21px;
-            right: -3px;
-            color: var(--nc-tx-1);
-            padding: 5px;
-            font-size: 10px;
-        }
-
-        .overlay-text a {
-            color: var(--nc-lk-1);
-            text-decoration: underline;
-        }
     </style>
 
 </head>
@@ -72,15 +47,10 @@
     </blockquote>
 
 
-    <div class="image-container">
-        <img src="imgs/Dr-Manhattan-on-Mars-optimized.jpg" class="thumbnail-image"
-            alt="a stylised picture of a man sitting on rocks on alien planet" />
-        <div class="overlay-text">
-            <p>This is an optimized version of the image. <a href="imgs/Dr-Manhattan-on-Mars.png">Here's</a> the
-                original.
-            </p>
-        </div>
-    </div>
+    <!-- All attempts to link the original uncompressed image were massively hurting load times, sorry boys. Here's the link -->
+    <!-- https://aniketnegi.github.io/content/imgs/Dr-Manhattan-on-Mars.png -->
+    <img src="imgs/Dr-Manhattan-on-Mars-optimized.jpg" class="thumbnail-image"
+        alt="a stylised picture of a man sitting on rocks on alien planet" />
 
     <h3>
         short stories
