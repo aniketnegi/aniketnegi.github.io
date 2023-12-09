@@ -10,7 +10,7 @@
 
 		button.addEventListener('click', () => {
 			if (navigator.vibrate) {
-				navigator.vibrate(100000000);
+				navigator.vibrate([100, 50, 200, 50, 300, 100, 10, 203, 210]);
 			} else {
 				console.log('Vibration not supported.');
 			}
